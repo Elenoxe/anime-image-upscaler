@@ -1,5 +1,4 @@
 import os
-
 import torch
 from PIL import Image
 from torchvision.transforms.functional import to_tensor, resize
@@ -13,7 +12,7 @@ from utils import ImageSplitter
 checkpoints = [
     'checkpoints/IMDN-2x-level0-38.70(0.9985).pth',
     'checkpoints/IMDN-2x-level1-34.57(0.9918).pth',
-    'checkpoints/IMDN-2x-level3-32.66(0.9870).pth'
+    'checkpoints/IMDN-2x-level2-32.66(0.9870).pth'
 ]
 
 patch_size = 128
